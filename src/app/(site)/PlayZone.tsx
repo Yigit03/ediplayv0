@@ -6,6 +6,7 @@ import Trambolin from "@/src/assets/trambolin.jpg";
 import Playground from "@/src/assets/HeroPlayground.png";
 import Events from "@/src/assets/events.jpg"
 import PrivateToAge from "@/src/assets/PrivateToAge.png";
+import { StaticImageData } from "next/image";
 import {
   Tent,
   Waves,
@@ -51,7 +52,7 @@ interface ZoneCard {
   variant: "photo" | "illustration";
   ageBadge: string;
   cornerBadge: string;
-  image?: string;
+  image?: StaticImageData;
   icon: typeof Waves;
   illustrationCaption?: string;
   title: string;
