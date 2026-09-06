@@ -1,9 +1,9 @@
-import Header from "@/src/components/Header";
+import type { ReactNode } from "react";
 
 export default function AdminLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: ReactNode;
 }>) {
   return (
     <>
