@@ -68,7 +68,7 @@ export const DEFAULT_GALLERY_POSTS: GalleryPost[] = [
       MomDadCafe,
       Events,
       PrivateToAge,
-    ],
+    ],  
     badges: [
       { label: "Mudanya'da Eğlence", theme: "pink" },
       { label: "Doğum Günü & Kahvaltı", theme: "orange" },
